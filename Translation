@@ -1,6 +1,6 @@
 ["a_c_lionmangy_01"]            = { name = "Löwe",                     yieldItems = { "Großes_Stück_Fleisch", "Löwen_Tatze", "Knochen" },               yield = { 4, 4, 2 }},
     ["a_c_cat_01"]                  = { name = "Katze",                      yieldItems = { "Rohes_Fleisch", "Knochen" },                                 yield = { 1, 2 }},
-    ["A_C_Armadillo_01"]            = { name = "Armadillo",                yieldItems = { "Rohes_Wildfleisch", "Knochen" },                               yield = { 1, 2 }},
+    ["A_C_Armadillo_01"]            = { name = "Neunbinden Gürteltier",                yieldItems = { "Rohes_Wildfleisch", "Knochen" },                               yield = { 1, 2 }},
     ["A_C_Buffalo_01"]              = { name = "Bison",                    yieldItems = { "Erstklassiges_Fleisch", "Knochen" },                               yield = { 2, 2 }},
     ["A_C_Buffalo_Tatanka_01"]      = { name = "Tatanka Bison",            yieldItems = { "Erstklassiges_Fleisch", "Knochen" },                               yield = { 2, 2 }},
     ["mp_a_c_buffalo_01"]           = { name = "Legendäres Bison",          yieldItems = { "Erstklassiges_Fleisch", "Knochen" },                               yield = { 3, 2 }},
