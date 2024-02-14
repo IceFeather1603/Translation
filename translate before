@@ -1,104 +1,234 @@
-["a_c_lionmangy_01"]            = { name = "Lion",                     yieldItems = { "big_game_meat", "lions_paw", "bone" },               yield = { 4, 4, 2 }},
-    ["a_c_cat_01"]                  = { name = "Cat",                      yieldItems = { "cat_meat", "bone" },                                 yield = { 1, 2 }},
-    ["A_C_Armadillo_01"]            = { name = "Armadillo",                yieldItems = { "Gamey_Meat", "bone" },                               yield = { 1, 2 }},
-    ["A_C_Buffalo_01"]              = { name = "Bison",                    yieldItems = { "prime_beef", "bone" },                               yield = { 2, 2 }},
-    ["A_C_Buffalo_Tatanka_01"]      = { name = "Tatanka Bison",            yieldItems = { "prime_beef", "bone" },                               yield = { 2, 2 }},
-    ["mp_a_c_buffalo_01"]           = { name = "Legendary Bison",          yieldItems = { "prime_beef", "bone" },                               yield = { 2, 2 }},
-    ["mp_a_c_bear_01"]              = { name = "Legendary Bear",           yieldItems = { "bear_claw", "big_game_meat", "bone" },               yield = { 2, 3, 3 }},
-    ["A_C_Cow"]                     = { name = "Florida Cracker Cow",      yieldItems = { "prime_beef", "Fat", "bone" },                        yield = { 3, 2, 2 }},
-    ["A_C_BearBlack_01"]            = { name = "American Black Bear",      yieldItems = { "Fat", "big_game_meat", "bear_claw", "bone"},         yield = { 3, 3, 2, 2 }},
-    ["A_C_Alligator_03"]            = { name = "Alligator Small",          yieldItems = { "gator_tooth", "big_game_meat", "bone" },             yield = { 2, 2, 2 }},
-    ["A_C_Ox_01"]                   = { name = "Angus Ox",                 yieldItems = { "prime_beef", "Fat", "bone" },                        yield = { 3, 2, 1 }},
-    ["A_C_Moose_01"]                = { name = "Moose",                    yieldItems = { "big_game_meat", "bone" },                            yield = { 4, 3 }},
-    ["mp_a_c_moose_01"]             = { name = "Moose",                    yieldItems = { "big_game_meat", "bone" },                            yield = { 4, 3 }},
-    ["A_C_Bull_01"]                 = { name = "Bull",                     yieldItems = { "Fat", "prime_beef", "bone" },                        yield = { 2, 3, 3 }},
-    ["A_C_Elk_01"]                  = { name = "Elk",                      yieldItems = { "raw_venison", "bone" },                              yield = { 3, 2 }},
-    ["A_C_Badger_01"]               = { name = "Badger",                   yieldItems = { "Gamey_Meat", "bone" },                               yield = { 1, 1 }},
-    ["A_C_Bear_01"]                 = { name = "Bear",                     yieldItems = { "bear_claw", "big_game_meat", "bone" },               yield = { 1, 3, 1 }},
-    ["mp_a_c_bighornram_01"]        = { name = "Legendary Ram",            yieldItems = { "Mutton", "bone"},                                    yield = { 2, 1 }},
-    ["A_C_BigHornRam_01"]           = { name = "Big Horn Ram",             yieldItems = { "Mutton", "bone"},                                    yield = { 2, 1 }},
-    ["A_C_BoarLegendary_01"]        = { name = "Giant Boar",               yieldItems = { "pork", "bone" },                                     yield = { 2, 1 }},
-    ["A_C_Boar_01"]                 = { name = "Boar",                     yieldItems = { "pork", "bone" },                                     yield = { 3, 1 }},
-    ["mp_a_c_boar_01"]              = { name = "Legendary Boar",           yieldItems = { "pork", "bone" },                                     yield = { 4, 3 }},
-    ["mp_a_c_buck_01"]              = { name = "Legendary Buck",           yieldItems = { "raw_venison", "bone"},                               yield = { 2, 1 }},
-    ["A_C_Buck_01"]                 = { name = "Buck",                     yieldItems = { "raw_venison", "bone" },                              yield = { 2, 1 }},
-    ["A_C_Deer_01"]                 = { name = "Deer",                     yieldItems = { "raw_venison", "bone" },                              yield = { 2, 1 }},
-    ["mp_a_c_deer_01"]              = { name = "Legendary Deer",           yieldItems = { "raw_venison", "bone" },                              yield = { 2, 1 }},
-    ["A_C_Duck_01"]                 = { name = "Duck",                     yieldItems = { "Feather", "gamey_bird_meat", "Fat" },                yield = { 2, 1, 1 }},
-    ["A_C_Eagle_01"]                = { name = "Eagle",                    yieldItems = { "eagle_feather", "gamey_bird_meat", "eagle_talon" },  yield = { 2, 1, 1 }},
-    ["A_C_Egret_01"]                = { name = "Egret",                    yieldItems = { "gamey_bird_meat", "Feather", "egret_feather" },      yield = { 1, 3, 2 }},
-    ["mp_a_c_elk_01"]               = { name = "Legendary Elk",            yieldItems = { "raw_venison", "bone" },                              yield = { 3, 3 }},
-    ["A_C_Fox_01"]                  = { name = "American Red Fox",         yieldItems = { "Gamey_Meat", "fox_claw", "bone" },                   yield = { 1, 1, 1 }},
-    ["mp_a_c_fox_01"]               = { name = "Legendary Fox",            yieldItems = { "Gamey_Meat", "fox_claw", "bone" },                   yield = { 1, 1, 1 }},
-    ["mp_a_c_wolf_01"]              = { name = "Legendary Wolf",           yieldItems = { "big_game_meat", "wolf_tooth", "wolf_claw", "bone" }, yield = { 2, 2, 1, 1 }},
-    ["A_C_Wolf"]                    = { name = "Big Grey Wolf",            yieldItems = { "big_game_meat", "wolf_tooth", "wolf_claw", "bone" }, yield = { 2, 2, 1, 1 }},
-    ["A_C_Wolf_Medium"]             = { name = "Medium Grey Wolf",         yieldItems = { "big_game_meat", "wolf_tooth", "wolf_claw", "bone" }, yield = { 1, 2, 1, 1 }},
-    ["A_C_Wolf_Small"]              = { name = "Small Grey Wolf",          yieldItems = { "big_game_meat", "wolf_tooth", "wolf_claw", "bone" }, yield = { 1, 2, 1, 1 }},
-    ["A_C_Vulture_01"]              = { name = "Vulture",                  yieldItems = { "gamey_bird_meat", "Feather", "vulture_feather" },    yield = { 2, 3, 3 }},
-    ["A_C_TurtleSnapping_01"]       = { name = "Snapping Turtle",          yieldItems = { "meat", "TurtleShell" },                        yield = { 1, 1 }},
-    ["a_c_turtlesea_01"]            = { name = "Sea Turtle",               yieldItems = { "meat", "TurtleShell" },                        yield = { 1, 1 }},
-    ["A_C_TurkeyWild_01"]           = { name = "Wild Turkey",              yieldItems = { "Feather", "gamey_bird_meat"},                        yield = { 2, 2 }},
-    ["A_C_Turkey_01"]               = { name = "Wild Turkey",              yieldItems = { "Feather", "gamey_bird_meat"},                        yield = { 3, 2 }},
-    ["A_C_Turkey_02"]               = { name = "Wild Turkey",              yieldItems = { "Feather", "gamey_bird_meat"},                        yield = { 3, 2 }},
-    ["A_C_SnakeWater_01"]           = { name = "Water Snake",              yieldItems = { "meat", "Snake_Poison" },                             yield = { 1, 1 }},
-    ["A_C_SnakeFerDeLance_01"]      = { name = "Snake Fer-De-Lance",       yieldItems = { "meat", "Snake_Poison" },                             yield = { 1, 1 }},
-    ["A_C_SnakeBlackTailRattle_01"] = { name = "Black-Tailed Rattlesnake", yieldItems = { "meat", "Snake_Poison" },                             yield = { 1, 1 }},
-    ["A_C_Snake_01"]                = { name = "Western Rattlesnake",      yieldItems = { "meat", "Snake_Poison" },                             yield = { 1, 1 }},
-    ["A_C_Skunk_01"]                = { name = "Striped Skunk",            yieldItems = { "Gamey_Meat", "bone" },                               yield = { 1, 1 }},
-    ["A_C_Sheep_01"]                = { name = "Merino Sheep",             yieldItems = { "Mutton", "bone" },                                   yield = { 2, 1 }},
-    ["mp_a_c_sheep_01"]             = { name = "Merino Sheep2",            yieldItems = { "Mutton", "bone" },                                   yield = { 2, 1 }},
-    ["A_C_Seagull_01"]              = { name = "Herring Seagull",          yieldItems = { "Feather", "gamey_bird_meat" },                       yield = { 3, 1 }},
-    ["A_C_RoseateSpoonbill_01"]     = { name = "Roseate Spoonbill",        yieldItems = { "Feather", "gamey_bird_meat" },                       yield = { 3, 1 }},
-    ["A_C_Rooster_01"]              = { name = "Dominique Rooster",        yieldItems = { "Feather", "chicken" },                               yield = { 3, 2 }},
-    ["A_C_RedFootedBooby_01"]       = { name = "Red-Footed Booby",         yieldItems = { "gamey_bird_meat", "Feather", "booby_feather" },      yield = { 1, 3, 3 }},
-    ["A_C_Raven_01"]                = { name = "Western Raven",            yieldItems = { "gamey_bird_meat", "Feather", "raven_feather" },      yield = { 1, 3, 3 }},
-    ["A_C_Raccoon_01"]              = { name = "North American Raccoon",   yieldItems = { "Gamey_Meat", "bone" },                               yield = { 1, 1 }},
-    ["A_C_Rabbit_01"]               = { name = "Black-Tailed Jackrabbit",  yieldItems = { "meat", "bone" },                               yield = { 1, 1 }},
-    ["mp_a_c_rabbit_01"]            = { name = "Bunny",                    yieldItems = { "meat", "ectoplasm", "bone" },                  yield = { 1, 1, 1 }},
-    ["A_C_Pronghorn_01"]            = { name = "American Pronghorn Doe",   yieldItems = { "raw_venison", "bone" },                              yield = { 2, 1 }},
-    ["mp_a_c_pronghorn_01"]         = { name = "American Pronghorn Doe2",  yieldItems = { "raw_venison", "bone" },                              yield = { 2, 1 }},
-    ["A_C_PrairieChicken_01"]       = { name = "Greater Prairie Chicken",  yieldItems = { "Feather", "gamey_bird_meat" },                       yield = { 3, 1 }},
-    ["mp_a_c_possum_01"]            = { name = "Spooky Possum",            yieldItems = { "meat", "ectoplasm", "bone" },                        yield = { 1, 1, 1 }},
-    ["A_C_Possum_01"]               = { name = "Virginia Possum",          yieldItems = { "meat", "bone" },                                     yield = { 1, 1 }},
-    ["A_C_Pig_01"]                  = { name = "Berkshire Pig",            yieldItems = { "pork", "Fat", "bone" },                              yield = { 3, 3, 1 }},
-    ["A_C_Pheasant_01"]             = { name = "Ring-Necked Pheasant",     yieldItems = { "Feather", "gamey_bird_meat", "Fat" },                yield = { 2, 1, 1 }},
-    ["A_C_Pelican_01"]              = { name = "American White Pelican",   yieldItems = { "gamey_bird_meat", "Feather", "pelican_feather" },    yield = { 1, 3, 2 }},
-    ["A_C_Parrot_01"]               = { name = "Blue And Yellow Macaw",    yieldItems = { "exotic_feather", "Feather", "gamey_bird_meat" },     yield = { 2, 3, 1 }},
-    ["A_C_Panther_01"]              = { name = "Panther",                  yieldItems = { "big_game_meat", "panther_claw", "bone" },            yield = { 2, 2, 1 }},
-    ["mp_a_c_panther_01"]           = { name = "Legendary Panther",        yieldItems = { "big_game_meat", "panther_claw", "bone" },            yield = { 2, 2, 1 }},
-    ["A_C_CaliforniaCondor_01"]     = { name = "Californian Condor",       yieldItems = { "Feather", "gamey_bird_meat" },                       yield = { 2, 1 }},
-    ["mp_a_c_chicken_01"]           = { name = "Chicken2",                 yieldItems = { "Feather", "Fat", "chicken" },                        yield = { 3, 1, 2 }},
-    ["A_C_Chicken_01"]              = { name = "Dominique Chicken",        yieldItems = { "Feather", "Fat", "chicken" },                        yield = { 3, 1, 2 }},
-    ["A_C_Cormorant_01"]            = { name = "Double-Crested Cormorant", yieldItems = { "Feather", "gamey_bird_meat" },                       yield = { 3, 2 }},
-    ["mp_a_c_cougar_01"]            = { name = "Legendary Cougar",         yieldItems = { "big_game_meat", "cougar_claw", "bone" },             yield = { 2, 1, 1}},
-    ["A_C_Cougar_01"]               = { name = "Cougar",                   yieldItems = { "big_game_meat", "cougar_claw", "bone" },             yield = { 2, 1, 1 }},
-    ["mp_a_c_coyote_01"]            = { name = "Legendary Coyote",         yieldItems = { "meat", "coyote_fang", "bone" },                yield = { 1, 2, 1 }},
-    ["A_C_Coyote_01"]               = { name = "Coyote",                   yieldItems = { "meat", "coyote_fang", "bone" },                yield = { 1, 2, 1 }},
-    ["A_C_CraneWhooping_01"]        = { name = "Whooping Crane",           yieldItems = { "gamey_bird_meat", "Feather", "crane_feather" },      yield = { 1, 3, 3 }},
-    ["A_C_GilaMonster_01"]          = { name = "Gila Monster",             yieldItems = { "Gamey_Meat", "bone"},                                yield = { 1, 1 }},
-    ["A_C_Goat_01"]                 = { name = "Alpine Goat",              yieldItems = { "Mutton", "bone" },                                   yield = { 2, 1 }},
-    ["A_C_GooseCanada_01"]          = { name = "Canada Goose",             yieldItems = { "Feather", "gamey_bird_meat", "Fat"},                 yield = { 3, 1, 3 }},
-    ["A_C_Hawk_01"]                 = { name = "Ferruinous Hawk",          yieldItems = { "gamey_bird_meat", "Feather", "hawk_feather" },       yield = { 1, 3, 3 }},
-    ["A_C_Heron_01"]                = { name = "Great Blue Heron",         yieldItems = { "gamey_bird_meat", "Feather", "heron_feather" },      yield = { 1, 3, 3 }},
-    ["A_C_Iguana_01"]               = { name = "Green Iguana",             yieldItems = { "meat", "bone" },                                     yield = { 1, 1 }},
-    ["A_C_IguanaDesert_01"]         = { name = "Desert Iguana",            yieldItems = { "meat", "bone" },                                     yield = { 1, 1 }},
-    ["A_C_Javelina_01"]             = { name = "Peccary Pig",              yieldItems = { "pork", "Fat", "bone" },                              yield = { 1, 3, 1 }},
-    ["A_C_Loon_01"]                 = { name = "Common Loon",              yieldItems = { "Feather", "gamey_bird_meat" },                       yield = { 3, 1 }},
-    ["A_C_Muskrat_01"]              = { name = "American Muskrat",         yieldItems = { "meat", "bone" },                                     yield = { 1, 1 }},
-    ["A_C_Owl_01"]                  = { name = "Owl",                      yieldItems = { "gamey_bird_meat", "Feather", "owl_feather" },        yield = { 1, 3, 3 }},
-    ["mp_a_c_owl_01"]               = { name = "Great Horned Owl",         yieldItems = { "gamey_bird_meat", "Feather", "owl_feather" },        yield = { 1, 3, 3 }},
-    ["mp_a_c_alligator_01"]         = { name = "Legendary Alligator",      yieldItems = { "big_game_meat", "bone" },                            yield = { 4, 2 }},
-    ["A_C_Alligator_02"]            = { name = "Lacartus",                 yieldItems = { "big_game_meat", "bone" },                            yield = { 5, 3 }},
-    ["A_C_Alligator_01"]            = { name = "Alligator",                yieldItems = { "big_game_meat", "bone" },                            yield = { 3, 2 }},
-    ["A_C_Beaver_01"]               = { name = "North American Beaver",    yieldItems = { "meat", "Fat", "bone" },                              yield = { 1, 1, 1 }},
-    ["mp_a_c_beaver_01"]            = { name = "Legendary Beaver",         yieldItems = { "meat", "Fat", "bone" },                              yield = { 1, 1, 1 }},
-    ["a_c_fishlongnosegar_01_lg"]   = { name = "Long Nose Gar (Large)",    yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishmuskie_01_lg"]        = { name = "Muskie (Large)",           yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishlakesturgeon_01_lg"]  = { name = "Lake Sturgeon (Large)",    yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishchannelcatfish_01_lg"]= { name = "Channel Catfish (Large)",  yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishnorthernpike_01_lg"]  = { name = "Northern Pike (Large)",    yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishlargemouthbass_01_lg"]= { name = "Large Mouth Bass (Large)", yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishrainbowtrout_01_lg"]  = { name = "Rainbow Trout (Large)",    yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishsmallmouthbass_01_lg"]= { name = "Small Mouth Bass (Large)", yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishsalmonsockeye_01_lg"] = { name = "Salmon Sockeye (Large)",   yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
-    ["a_c_fishsalmonsockeye_01_ml"] = { name = "Salmon Sockeye (MedLarge)",yieldItems = { "fish", "fish_head"},                                 yield = { 4, 1 }},
+Config.Language = {
+    ------- NOTIFICATIONS --------
+    noperm = "Keine Berechtigung zum Öffnen dieses Postfachs",
+    bought = "du hast gekauft",
+    fo = " für: ",
+    sign = "$",
+    cantcarry = "Ich kann nicht mehr tragen von: ",
+    invfull = "Dein Inventar ist voll",
+    nojob = "Du hast nicht den benötigten Job",
+    havebox = "Dir gehört hier bereits ein Postfach",
+    nomoney = "Du hast nicht genug Geld bei dir",
+    mailsent = "Deine Nachricht wird zugestellt ",
+    nomessage = "Deine Notiz ist leer",
+    nomailbox = "In diesem Staat ist diese Nummer nicht registiert, versuche es in einem anderen Staat",
+    retrived = "Du hast Post erhalten",
+    noitem = "Du hast dieses Item bei dir",
+    ilegal = " illegal ", 
+    legal = " legal ",
+    receipt = "Sie haben eine Quittung für Ihr Paket erhalten",
+    toomanyReceipt = "Du hast zu viele Quittungen",
+    nomail = "Du hast keine neuen Briefe",
+    took = "Du hast genommen: ",
+    only1 = "Du kannst keine andere Company besitzen",
+    owns = "Du hast diese Poststelle gekauft: ",
+    withdraw = "Sie haben Firmengelder in Höhe von abgehoben: ",
+    added = "Sie haben dem Unternehmen Geld in Höhe von hinzugefügt: ",
+    hired = "Sie haben eingestellt: ",
+    hired1 = "Sie wurden eingestellt, um dort zu arbeiten: ",
+    fired = "Sie wurden von folgendem Postamt entlassen: ",
+    fired1 = "Du wurdest gefeuert von: ",
+    noid = "Es gibt niemanden mit folgender ID: ",
+    noselffire = " Du kannst dich nicht selbst feuern",
+    nolonger = "Dir gehört dieses Postamt nicht mehr ",
+    boughtservice = "Sie haben diesen Service gekauft:",
+    cantpurchase = "Sie können diesen Service nicht kaufen. Der von Ihnen ausgewählte Beitrag ist momentan nicht zu erwerben",
+    compnomoney = "Die Company hat nicht genug Geld",
+    alreadybought = "Du hast dies bereits gekauft",
+    serviceallowed = "Diese Poststelle unterstützt nun auch Sendungen in andere Staaten",
+    mailempty = "Sie haben keine Post dabei",
+    outofservice = "Diese Poststelle ist momentan nicht besetzt",
+    mailnoneexistent = "Hier sind keine Mailboxen vorhanden",
+    spent = "Du hast gespendet:~o~ ",
+    waypoint = "Folge dem Wegpunkt auf der Karte zu: \n~o~",
+    nonemailbox = "Es ist kein anderes Registerpostfach verfügbar",
+    noservice = "Diese Poststelle unterstützt diesen Service nicht",
+    notmany = "Du hast nicht genug Items",
+    noamount = "Füge Betrag hinzu ",
+    nodestination = "Diese Poststelle kann keine Briefe an die ausgewählte Stelle versenden",
+    arent = "Du bist nicht nah genug an der Poststelle",
+    donthave = "Die Company hat nicht genug Geld",
+    notifyjob = "Neue Briefe erreichen die Poststelle",     -- new line
+    havemail = "Du hast Post an folgender Poststelle: ",   -- new line
+    havemailhousing = "Sie haben neue Briefe erhalten ", -- new line
+    donthavemail = "Keine Post an das Postamt von ",        -- new line
+    donthavemailhousing = "Du hast keine neuen Briefe erhalten ",   -- new line
+    nohouse = " Dieses Haus existiert nicht ",                -- new line
+    dontown = "Dir gehört dieses Haus nicht,",               -- new line
+    wrong = "Du musst deinem Haus einen Namen geben",   --newline
+    post = "Poststelle",                                -- new line
+    mail = "Briefkasten",                                   -- new line
+    noinput = "Wähle Poststelle oder Briefkasten ",          --newline for the command make sure it matches above mail and post
+    closed = "Geschäft geschlossen ",                           -- new line
+    am = " Morgens ",                                        -- new line
+    pm = " Abends ",                                        -- new line
+    house = "house:<br> ",                              -- leave br -- new line
+    housenumber = "Deine Hausnummer (wenn du eine besitzt):",
+    helpdisplay = "Checke deine Post an deinem Haus",
+    type = "Typ",
+    display = "Haus #",
+    Or = " oder ",
+    noMeta = " Diese Items können aufgrund von Meta Daten nicht hinzugefügt werden",
+    ReceivedMail = "Du wirst Post erhalten um: ",
+    Mail = " Post ",
+    ------------------ METADATA -----------------------
+    -- only translate dont remove any space or this <br>
+    from = "from: ",
+    fort = "<br>for: ",
+    destination = " <br>Destination: ",
+    ------------------- PROMPTS -------------------------
+    prompt1 = "Post ",
+    prompt2 = "Post Briefkasten",
+    prompt3 = "Briefkasten",
+    prompt4 = "Chef Menü",
+    Prompt5 = "Drücken",
+
+}
+
+
+
+----- INPUTS ------
+Confirm            = "Bestätigen"
+Howmany            = "Wie viel?"
+Quantity           = "Anzahl"
+Pid                = "Spieler ID"
+HireP              = "Spieler einstellen"
+Answer             = "Ja oder nein"
+DeletePost         = "Brief löschen?"
+Amount             = "Anzahl"
+Withdraw           = "Geld abheben"
+AddMoney           = "Geld hinzufügen"
+Description        = "Beschreibung"
+SubMenu            = "SubMenu"
+Pattern            =
+"[A-Za-z ]{2,20}" -- here you can add your own language pattern for the description when sending items for russian do this "[А-Яа-я ]{2,20}"
+------------- MENU TRANSLATION ----------
+-- Menu = label
+-- menuDesc = description
+Menu1              = "Kaufe Post Vorräte"
+Menu1Desc          = "Kaufe Items "
+Menu2              = "Überprüfe deine Post"
+Menu2Desc          = "Überprüfe deinen Briefkasten"
+Menu3              = "Kaufe Briefkasten"
+Menu3Desc          = "Miete hier einen Briefkasten für: "
+Menu4              = " Briefkasten"
+Menu4Desc          = "Versende Post an Briefkästen in anderen Staaten "
+Menu5              = "Außerhalb des Staates"
+Menu5Desc          = "Versende Post oder Pakete in andere Staaten"
+Menu6              = "Zeige deine Häuse"
+Menu6Desc          = "Zeige verfügbare Häuse"
+Menu7              = "Zeige/Verberge Bereich"
+Menu7Desc          = "Zeige Arbeitsbereich"
+Menu8              = "Verberge Wegbeschreibung"
+Menu8Desc          = "Entferne den Wegpunkt"
+Menu9              = "normales Porto"
+Menu9Desc          = "Billige Versendung"
+Menu10             = "Expressversand"
+Menu10Desc         = "Schneller Versand"
+Menu11             = "Ware verschicken"
+Menu11Desc         = "Versende Ware in andere Staaten"
+Menu12             = "Nicht verfügbar"
+Menu13             = "Versende Brief"
+Menu13Desc         = "Schicke Briefe überall in folgenden Staat:<br>"
+Menu14             = "Versende Ware"
+Menu14Desc         = "Sende ein Paket in folgenden Staat: <br>"
+Menu15             = "Name: "
+Menu15Desc         = "Sende ein Paket für folgenden Preis: <br> "
+Menu16             = "Hausnummer<br>"
+Menu16Desc         = "Wähle ein Haus um die Post zu verschicken"
+Menu17             = "Erhalte Briefe"
+Menu17Desc         = "Erhalte Briefe um diese an das Haus weiterzuleiten"
+Menu18             = "Versende Brief"
+Menu18Desc         = "Versende Briefe an andere Poststellen, die an Häuser gehen sollen"
+Menu19             = "Versende Ware"
+Menu19Desc         = "Sende ein Paket an eine andere Poststelle"
+--Boss menu
+Menu20             = "Kaufe diese Poststelle"
+Menu20Desc         = "Dieses Postelle ist für folgenden Betrag verfügbar: "
+Menu21             = "Stelle ein"
+Menu21Desc         = " Der Spieler muss ingame sein"
+Menu22             = "Überprüfe/Bekomme Geld"
+Menu22Desc         = " Der Spieler muss ingame sein"
+Menu23             = "Housing"
+Menu23Desc         = "Kaufe Service für das Housing"
+Menu24             = "Briefkasten"
+Menu24Desc         = "Kaufe Service für Briefkasten"
+Menu25             = "Lösche die Poststelle"
+Menu25Desc         = "Du möchtest diese nicht länger besitzen? Drücke hier um dies zu bestätigen- "
+Menu26             = "Hebe Geld ab: <br>"
+Menu26Desc         = "Geld abheben "
+Menu27             = "Füge Geld hinzu <br>"
+Menu27Desc         = "Füge Geld zur Company hinzu"
+Menu28             = "Kaufe diese Poststelle für"
+Menu28Desc         = "Diese Poststelle ist für folgenden Betrag verfügbar: "
+Menu29             = "Das Housing befindet sich außerhalb des Staates"
+Menu29Desc         = "Buy service to allow sending parcels or mail out of state for housing"
+Menu30             = "Merchandise allow housing"
+Menu30Desc         = "Buy service to allow sending parcels to housing out of state for the price of: <br>"
+Menu31             = "Mailbox out of state"
+Menu31Desc         = "Buy states to send parcels to mail box "
+Menu32             = "Merchandise allow mailbox"
+Menu32Desc         = "Buy service to allow sending parcels to other Mailbox out of state for the price of <br> "
+
+Menu33             = "Company Einkommen"
+Menu33Desc         = "Steuern werden automatisch bezahlt"
+Menu34Desc         = " für jeden Monat"
+
+-- MISC
+MenuDesc           = "Beschreibung: "
+MenuDesc1          = "Nachricht: "
+MenuPrice          = " Preis: "
+MenuReceived       = "Erhalten am"
+MenuFromTown       = "Von folgender Stadt:"
+MenuOwned          = "Besitztum von"
+MenuOutOfState     = "Von folgendem Staat versendet:"
+MenuCount          = "Anzahl: "
+MenuWithin         = "<br>Irgendwohin in den Staat von:<br>"
+MenuDollar         = " $ USD "
+MenuIlegal         = " Dieses Produkt zu versenden ist illegal "
+MenuBy             = "<br> Von:<br>"
+MenuFrom           = "<br>Von:<br>"
+MenuLegal          = "Dieses Produkt ist sicher zu versenden"
+MenuPriceOf        = "Sende ein Paket für folgenden Preis: <br> "
+MenuServ           = "Kaufe diesen Service um anderen das Verschicken außerhalb des Staates zu ermöglichen<br> Dies wird vom Firmenkonto gezahlt"
+MenuNotify         = "Besitzer benachrichten"
+MenuNotifyDesc     = " Benachrichtige den Besitzer des Hauses, sofern die Nachricht überbracht wurde"
+MenuSearchBox      = "Suche nach einem Briefkasten"
+MenuSearchHouse    = "Suche nach einem Haus"
+MenDescSearchHouse = "Der Name des Hauses muss exakt derselbe sein"
+MenuNoMailbox      = "Kein Briefkasten"
+
+
+---- add your own notifications here Server side
+ServerNotify = function(type, text, VORP, source, target)
+    -- fail notify
+    if type == 1 then  -- no touch
+        if source then -- no touch
+            VORP.NotifyRightTip(source, text, 5000)
+        end
+        if target then -- notouch
+            VORP.NotifyObjective(target, text, 5000)
+        end
+    elseif type == 3 then -- MAIL NOTIFY PLAYER GOT MAIL
+        if source then
+            VORP.NotifyRightTip(source, text, 5000)
+        end
+    else
+        if source then -- notouch
+            VORP.NotifyRightTip(source, text, 5000)
+        end
+        if target then -- notouch
+            VORP.NotifyObjective(target, text, 5000)
+        end
+    end
+end
+
+
+---- CLIENT SIDE notify
+ClientNotify = function(type, text, VORP)
+    if type == 1 then -- no touch
+        VORP.NotifyRightTip(text, 5000)
+    else
+        VORP.NotifyObjective(text, 5000)
+    end
+end
